@@ -5,13 +5,16 @@ This project presents the design and simulation of an autonomous robotic system 
 
 **Autonomous Pick-and-Place Robotic System using KUKA robot in Webots**
 
-1. Introduction
+**1. Introduction**
+
 Automation in modern manufacturing environments plays a critical role in improving efficiency, accuracy, and safety. This project focuses on developing a robotic solution capable of autonomously handling objects in a factory-like setting. The system is designed to replicate real-world industrial processes using a simulated environment.
 
-2. Objective
+**2. Objective**
+
 To develop an autonomous robotic system capable of detecting, identifying, and manipulating objects from a storage area and placing them accurately onto designated shelves using intelligent control strategies.
 
-3. System Architecture
+**3. System Architecture**
+
 The system consists of the following key components:
 
 Robotic Platform: KUKA robotic arm with gripper
@@ -23,7 +26,9 @@ Python-based control algorithms
 Predefined coordinate mapping for structured environments
 Simulation Platform:
 Webots robotic simulation environment
-4. Methodology
+
+**4. Methodology**
+
 The system operates using a hybrid perception and control approach:
 
 Object detection using camera-based vision system
