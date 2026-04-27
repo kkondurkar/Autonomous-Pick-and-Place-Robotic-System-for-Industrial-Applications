@@ -100,6 +100,7 @@ Paxton cooper
 Bachelors in Electrical Engineering
 University of South Alabama
 
-12. Acknowledgment
+**12. Acknowledgments**
+
 This project was developed as part of an academic robotics course, emphasizing practical implementation of autonomous systems in industrial environments.
 
