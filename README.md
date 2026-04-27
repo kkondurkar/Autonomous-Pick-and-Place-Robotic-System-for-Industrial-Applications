@@ -38,41 +38,52 @@ Grasping using robotic gripper
 Object placement on designated shelves
 This structured workflow enables accurate and repeatable industrial operations.
 
-5. Key Features
+**5. Key Features**
+   
 Fully autonomous operation
 Vision-based object detection
 Sensor-assisted spatial awareness (LiDAR)
 High precision pick-and-place mechanism
 Structured industrial workflow simulation
-6. Simulation Environment
+
+**6. Simulation Environment**
+
 The system is implemented in an intermediate-level industrial environment featuring:
 
 Factory layout with defined storage zones
 Multiple box-type objects
 Shelving units for placement
 Realistic robotic manipulation setup
-7. Tools and Technologies
+
+**7. Tools and Technologies**
+
 Programming Language: Python
 Simulation Software: Webots
 Robotic System: KUKA robotic arm
 Sensors: Camera and LiDAR
-8. Results and Discussion
+
+**8. Results and Discussion**
+
 The system successfully demonstrates autonomous pick-and-place functionality within a structured environment. The integration of vision and sensor-based perception enables reliable object detection and positioning.
 
 Note: Quantitative performance metrics such as accuracy and execution time will be included in future updates.
 
-9. Future Work
+**9. Future Work**
+
 Integration of advanced computer vision algorithms (e.g., deep learning)
 Real-time obstacle avoidance
 Dynamic path planning
 Multi-robot coordination for large-scale automation
-10. Repository Structure
+
+**10. Repository Structure**
+
 /code → Python control scripts
 /worlds → Webots simulation files
 /images → Project visuals and screenshots
 /docs → Additional documentation
 
-11. Author
+**11. Authors**
+
 Manish Kondurkar
 Master’s in Electrical Engineering
 University of South Alabama
