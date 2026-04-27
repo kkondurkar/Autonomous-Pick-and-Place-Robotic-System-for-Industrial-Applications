@@ -1,5 +1,9 @@
 # Autonomous-Pick-and-Place-Robotic-System-for-Industrial-Applications
-Autonomous Pick-and-Place Robotic System using KUKA robot in Webots
+
+## Abstract
+This project presents the design and simulation of an autonomous robotic system for industrial material handling. The system, referred to as the **Factory Automation Robot**, performs pick-and-place operations by identifying, grasping, and relocating objects within a structured factory environment. The implementation demonstrates the integration of perception, decision-making, and robotic manipulation in a simulated industrial workflow.
+
+**Autonomous Pick-and-Place Robotic System using KUKA robot in Webots**
 
 1. Introduction
 Automation in modern manufacturing environments plays a critical role in improving efficiency, accuracy, and safety. This project focuses on developing a robotic solution capable of autonomously handling objects in a factory-like setting. The system is designed to replicate real-world industrial processes using a simulated environment.
