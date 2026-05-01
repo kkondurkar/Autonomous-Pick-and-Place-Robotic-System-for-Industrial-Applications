@@ -19,8 +19,7 @@ The system consists of the following key components:
 
 Robotic Platform: KUKA robotic arm with gripper
 Perception System:
-Camera for vision-based object detection
-LiDAR for spatial awareness and environment sensing
+Camera for vision-based object detectionand environment sensing
 Control System:
 Python-based control algorithms
 Predefined coordinate mapping for structured environments
@@ -42,7 +41,6 @@ This structured workflow enables accurate and repeatable industrial operations.
    
 Fully autonomous operation
 Vision-based object detection
-Sensor-assisted spatial awareness (LiDAR)
 High precision pick-and-place mechanism
 Structured industrial workflow simulation
 
@@ -60,7 +58,7 @@ Realistic robotic manipulation setup
 Programming Language: Python
 Simulation Software: Webots
 Robotic System: KUKA robotic arm
-Sensors: Camera and LiDAR
+Sensors: Camera 
 
 **8. Results and Discussion**
 
