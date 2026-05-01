@@ -1,4 +1,4 @@
-# Autonomous-Pick-and-Place-Robotic-System-for-Industrial-Applications
+# Autonomous-Pick-and-Place-with-Theta-Star-for-the-Kuka-youBot
 
 ## Abstract
 This project presents the design and simulation of an autonomous robotic system for industrial material handling. The system, referred to as the **Factory Automation Robot**, performs pick-and-place operations by identifying, grasping, and relocating objects within a structured factory environment. The implementation demonstrates the integration of perception, decision-making, and robotic manipulation in a simulated industrial workflow.
