@@ -61,15 +61,18 @@ WorldInfo {
   ]
 }
 Viewpoint {
-  orientation -0.2422646519243043 -0.19855136138903748 0.9496763634620773 4.464362862747505
-  position 3.903809019840467 3.8971271097050986 4.307776859036479
+  orientation -0.46407737189725407 -0.6794519419591557 0.5683108757193283 4.529568640051514
+  position 0.20926779854477967 2.1771451249955165 37.3021535385129
 }
 Cabinet2 {
   translation -9.77 -8.48 0
   name "cabinet recon"
+  rowsHeights [
+    0.3, 0.2, 0.2, 0.4, 0.4
+  ]
 }
 WoodenBox2 {
-  translation 2.64 -4.51 0.37
+  translation 0.21 -10.52 0.37
   name "wooden box recon(1)"
   size 0.04 0.04 0.04
   mass 0.5
@@ -96,8 +99,26 @@ Floor {
   appearance ThreadMetalPlate {
   }
 }
+WoodenBox {
+  translation 0 -5 0.599987
+  rotation 0.5773502691896258 0.5773502691896258 0.5773502691896258 2.0944
+  name "wooden box(10)"
+  size 1 1 1
+}
+WoodenBox {
+  translation -1.7 -1.7 0.599987
+  rotation 0.5773502691896258 0.5773502691896258 0.5773502691896258 2.0944
+  name "wooden box(22)"
+  size 1 1 1
+}
+WoodenBox {
+  translation 2 -3 0.599987
+  rotation 0.5773502691896258 0.5773502691896258 0.5773502691896258 2.0944
+  name "wooden box(23)"
+  size 1 1 1
+}
 OilBarrel {
-  translation 2.65002 -4.5012 0.19
+  translation 7.60794 2.03904 0.19
   rotation 0 0 1 -0.340335
   name "oil barrel(3)"
   height 0.3
@@ -528,10 +549,16 @@ Cabinet {
   ]
 }
 Youbot {
-  translation -0.660223 -3.16557 0.101966
-  rotation 0.0029432396739326387 -0.003944459563012305 0.9999878892161533 -0.8004953071795864
-  controller "ObjectDetectionAndPlacement3"
+  translation 0.906269 -0.496237 0.0937103
+  rotation 0.0024490903290714924 -0.0019321502596129517 0.9999951343641299 -1.3240953071795865
+  controller "youbotThetaStarPickPlace"
+  supervisor TRUE
   bodySlot [
+    Accelerometer {
+      name "accel"
+    }
+    Display {
+    }
     Lidar {
     }
     Camera {
@@ -684,10 +711,4 @@ StraightStairs {
       }
     }
   ]
-}
-DEF youbot_ts Youbot {
-  translation 3.4828195019804222 -0.07506740655146177 0.09887540020085892
-  rotation -0.02131808830797613 0.9727579411323767 -0.23084091291361866 0.0032763020096460093
-  name "youBot(1)"
-  controller "<none>"
 }

@@ -61,15 +61,18 @@ WorldInfo {
   ]
 }
 Viewpoint {
-  orientation -0.2422646519243043 -0.19855136138903748 0.9496763634620773 4.464362862747505
-  position 3.903809019840467 3.8971271097050986 4.307776859036479
+  orientation -0.1383839878260061 -0.1157463514620808 0.9835917110450801 4.518454527296618
+  position 5.955897097660848 23.471349264310618 11.803468100744242
 }
 Cabinet2 {
   translation -9.77 -8.48 0
   name "cabinet recon"
+  rowsHeights [
+    0.3, 0.2, 0.2, 0.4, 0.4
+  ]
 }
 WoodenBox2 {
-  translation 2.64 -4.51 0.37
+  translation 0.21 -10.52 0.37
   name "wooden box recon(1)"
   size 0.04 0.04 0.04
   mass 0.5
@@ -96,8 +99,14 @@ Floor {
   appearance ThreadMetalPlate {
   }
 }
+WoodenBox {
+  translation 8.48288e-07 -5 0.599991
+  rotation 0.5773502691896258 0.5773502691896258 0.5773502691896258 2.0944
+  name "wooden box(10)"
+  size 1 1 1
+}
 OilBarrel {
-  translation 2.65002 -4.5012 0.19
+  translation 7.60794 2.03904 0.19
   rotation 0 0 1 -0.340335
   name "oil barrel(3)"
   height 0.3
@@ -528,9 +537,10 @@ Cabinet {
   ]
 }
 Youbot {
-  translation -0.660223 -3.16557 0.101966
-  rotation 0.0029432396739326387 -0.003944459563012305 0.9999878892161533 -0.8004953071795864
-  controller "ObjectDetectionAndPlacement3"
+  translation 2.22666 -1.07423 0.089309
+  rotation 0.0013980403722646455 0.002347960625205643 0.9999962662750396 1.55571
+  controller "youbotThetaStarPickPlace"
+  supervisor TRUE
   bodySlot [
     Lidar {
     }
@@ -684,10 +694,4 @@ StraightStairs {
       }
     }
   ]
-}
-DEF youbot_ts Youbot {
-  translation 3.4828195019804222 -0.07506740655146177 0.09887540020085892
-  rotation -0.02131808830797613 0.9727579411323767 -0.23084091291361866 0.0032763020096460093
-  name "youBot(1)"
-  controller "<none>"
 }
